@@ -11,7 +11,6 @@
   inputs.src-nimalpm-master.ref   = "refs/heads/master";
   inputs.src-nimalpm-master.owner = "barcharcraz";
   inputs.src-nimalpm-master.repo  = "nimalpm";
-  inputs.src-nimalpm-master.dir   = "";
   inputs.src-nimalpm-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
