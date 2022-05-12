@@ -7,8 +7,31 @@
   "license": "GPLv2",
   "web": "https://www.github.com/barcharcraz/nimalpm/",
   "refs": [
-    "fatal: unable to access 'https://github.com/barcharcraz/nimalpm/': Could not resolve host: github.com",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "nimalpm",
+      "version": "0.1",
+      "author": "Charlie Barto",
+      "desc": "A nimrod wrapper for libalpm",
+      "license": "GPLv2",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [
+        "tests/rawalpmopts.nim",
+        "calpm.nim"
+      ],
+      "installExt": [],
+      "requires": [],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
